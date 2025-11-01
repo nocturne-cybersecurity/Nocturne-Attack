@@ -36,6 +36,10 @@ cd Nocturne-Attack
 
 # Instalar dependencias
 pip install -r requirements.txt
+
+# Si no se instalan las dependencias en kali linux
+sudo apt update
+sudo apt install -y python3-requests python3-urlib3 python3-stem
 ```
 
 ### Método 2: Instalación directa
