@@ -60,19 +60,19 @@ python3 nocturne.py
 
 ```bash
 # Escaneo de puertos
-python main.py --scan <target> --start-port <puerto_inicio> --end-port <puerto_fin>
+python nocturne.py --scan <target> --start-port <puerto_inicio> --end-port <puerto_fin>
 
 # Ataque HTTP Flood
-python main.py --http-flood <url> --requests <num_requests> --delay <segundos>
+python nocturne.py --http-flood <url> --requests <num_requests> --delay <segundos>
 
 # Ataque TCP Flood
-python main.py --tcp-flood <ip> --port <puerto> --connections <num_conexiones>
+python nocturne.py --tcp-flood <ip> --port <puerto> --connections <num_conexiones>
 
 # Ataque Slowloris
-python main.py --slowloris <url> --sockets <num_sockets>
+python nocturne.py --slowloris <url> --sockets <num_sockets>
 
 # Ataque DDoS
-python main.py --ddos <url> --duration <segundos>
+python nocturne.py --ddos <url> --duration <segundos>
 ```
 
 ## Configuración
