@@ -25,17 +25,17 @@ Nocturne es una herramienta avanzada de pruebas de seguridad y pruebas de estré
   - `colorama`
   - `stem` (para soporte de Tor)
 
-## 🛠 Instalación
+##  Instalación
 
 ### Método 1: Clonar el repositorio
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/nocturne-cibersecurity/Nocturne-Attack
+git clone https://github.com/nocturne-cibersecurity/Nocturne-Attack.git
 cd Nocturne-Attack
 
 # Instalar dependencias
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Si no se instalan las dependencias en kali linux
 sudo apt update
@@ -53,7 +53,7 @@ pip install git+https://github.com/nocturne-cibersecurity/Nocturne-Attack
 ### Ejecutar en modo interactivo
 
 ```bash
-python main.py
+python3 nocturne.py
 ```
 
 ### Uso desde línea de comandos
@@ -119,17 +119,17 @@ python main.py --http-flood http://example.com --requests 1000 --delay 0.1
 
 ```bash
 # Establecer 500 conexiones TCP a un servidor
-python main.py --tcp-flood 192.168.1.1 --port 80 --connections 500
+python3 nocturne.py --tcp-flood 192.168.1.1 --port 80 --connections 500
 ```
 
 ## Consideraciones de Seguridad
 
-**ADVERTENCIA**: Esta herramienta está diseñada únicamente para:
+ **ADVERTENCIA**: Esta herramienta está diseñada únicamente para:
 - Pruebas de seguridad autorizadas
 - Evaluación de la seguridad de tus propios sistemas
 - Investigación académica
 
-**No utilices esta herramienta para actividades ilegales o no autorizadas ya que es realmente poderosa y podria causar daño real.**
+ **No utilices esta herramienta para actividades ilegales o no autorizadas ya que es realmente poderosa y podria causar daño real.**
 
 ## Licencia
 
