@@ -6,7 +6,7 @@
 
 Nocturne es una herramienta avanzada de pruebas de seguridad y pruebas de estrés que permite realizar diversas técnicas de evaluación de seguridad en redes y aplicaciones web. Desarrollada en Python, esta herramienta está diseñada para profesionales de seguridad informática, pentesters y entusiastas de la ciberseguridad.
 
-## 🚀 Características Principales
+## Características Principales
 
 - **Escaneo de Puertos**: Escaneo eficiente de puertos abiertos en hosts remotos.
 - **Ataque HTTP Flood**: Simulación de múltiples peticiones HTTP para pruebas de carga.
@@ -16,7 +16,7 @@ Nocturne es una herramienta avanzada de pruebas de seguridad y pruebas de estré
 - **Soporte Multilenguaje**: Interfaz disponible en múltiples idiomas.
 - **Uso de Tor**: Opción para enrutar el tráfico a través de la red Tor para mayor anonimato.
 
-## 📦 Requisitos Previos
+## Requisitos Previos
 
 - Python 3.8 o superior
 - pip (gestor de paquetes de Python)
@@ -48,7 +48,7 @@ sudo apt install -y python3-requests python3-urlib3 python3-stem
 pip install git+https://github.com/nocturne-cibersecurity/Nocturne-Attack
 ```
 
-## 🚀 Uso Básico
+## Uso Básico
 
 ### Ejecutar en modo interactivo
 
@@ -75,7 +75,7 @@ python main.py --slowloris <url> --sockets <num_sockets>
 python main.py --ddos <url> --duration <segundos>
 ```
 
-## 🌐 Configuración
+## Configuración
 
 El archivo de configuración se guarda automáticamente en `~/.nocturne_config.json` y contiene las siguientes opciones:
 
@@ -99,7 +99,7 @@ Para habilitar/deshabilitar el uso de Tor:
 1. Ve al menú de configuración (opción 6)
 2. Selecciona la opción para alternar el uso de Tor
 
-## 📝 Ejemplos de Uso
+## Ejemplos de Uso
 
 ### Ejemplo 1: Escaneo de Puertos
 
@@ -122,30 +122,23 @@ python main.py --http-flood http://example.com --requests 1000 --delay 0.1
 python main.py --tcp-flood 192.168.1.1 --port 80 --connections 500
 ```
 
-## 🔒 Consideraciones de Seguridad
+## Consideraciones de Seguridad
 
-⚠️ **ADVERTENCIA**: Esta herramienta está diseñada únicamente para:
+**ADVERTENCIA**: Esta herramienta está diseñada únicamente para:
 - Pruebas de seguridad autorizadas
 - Evaluación de la seguridad de tus propios sistemas
 - Investigación académica
 
-❌ **No utilices esta herramienta para actividades ilegales o no autorizadas ya que es realmente poderosa y podria causar daño real.**
+**No utilices esta herramienta para actividades ilegales o no autorizadas ya que es realmente poderosa y podria causar daño real.**
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## 🤝 Contribuciones
+## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, lee las [pautas de contribución](CONTRIBUTING.md) antes de enviar un pull request.
 
-## 📧 Contacto
+## Contacto
 
 Si tienes preguntas o sugerencias, por favor abre un issue en el repositorio o contactame por gmail: rodrigolopezpizarro271@gmail.com
-
----
-
-<div align="center">
-  <p>Hecho con ❤️ para la comunidad de seguridad informática</p>
-  <p>© 2025 Nocturne Project | Versión 1.1.6</p>
-</div>
