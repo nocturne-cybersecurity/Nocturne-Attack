@@ -2,7 +2,7 @@
 
 ## Reportando Vulnerabilidades
 
-Agradecemos a los investigadores de seguridad que ayudan a mantener segura a nuestra comunidad. Si ha descubierto una vulnerabilidad de seguridad en Nocturne, le agradecemos que nos lo notifique de manera responsable.
+Agradecemos a los investigadores de seguridad que ayudan a mantener segura a nuestra comunidad. Si ha descubierto una vulnerabilidad de seguridad en Nocturne-Attack, le agradecemos que nos lo notifique de manera responsable.
 
 ### Cómo Reportar
 
