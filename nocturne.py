@@ -398,16 +398,6 @@ class Translator:
 t = Translator()
 
 
-def restart_program():
-    python = sys.executable
-    os.execl(python, python, *sys.argv)
-
-
-
-
-
-
-
 def get_random_banner():
     banners = [
         
